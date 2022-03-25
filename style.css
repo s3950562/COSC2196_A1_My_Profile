@@ -112,6 +112,40 @@ p {
 	color: #eef4ed;
 }
 
+#dotPoints_Ref a[href^=tel] {
+	color: #8da9c4; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#dotPoints_Ref a:link { 
+	color: #8da9c4;
+	background-color: transparent;
+  	text-decoration: none;
+}
+
+#dotPoints_Ref a:visited { 
+	color: #8da9c4;
+	background-color: transparent;
+  	text-decoration: none;
+}
+
+#dotPoints_Ref a:hover { 
+	color: #d7e3fc;
+	background-color: transparent;
+  	text-decoration: none;
+}
+
+#dotPoints_Ref a:active { 
+	color: #8da9c4;
+	background-color: transparent;
+  	text-decoration: none;
+}
+
 #contactDetails ul {
 	line-height: 1.8em;
 	list-style-type: none;
